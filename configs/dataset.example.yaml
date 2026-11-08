@@ -1,0 +1,6 @@
+path: ../data/origin
+train: images/train
+val: images/val
+test: images/test
+nc: 28
+names: ['OO', 'QQ', 'JJ', '22', 'RR', 'CC', 'BB', 'II', 'GG', 'UU', 'LL', 'WW', 'KK', 'EE', 'FF', 'MM', 'AA', 'VV', 'DD', '55', 'HH', 'PP', 'ZZ', 'YY', '11', 'TT', 'NN', 'SS']

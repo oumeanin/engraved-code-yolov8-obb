@@ -1,0 +1,72 @@
+{
+ "splits": {
+  "origin": {
+   "folder": "dataset_origin_split",
+   "counts": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+   },
+   "total": 500,
+   "unique": 500,
+   "split_hash": {
+    "train": "1df406e38befdd58",
+    "val": "356112be49358248",
+    "test": "d3f56d626656b229"
+   }
+  },
+  "resplit_A": {
+   "folder": "dataset_resplit",
+   "counts": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+   },
+   "total": 500,
+   "unique": 500,
+   "split_hash": {
+    "train": "3a966bc867363a37",
+    "val": "f4dab7e8e8584ea3",
+    "test": "229ddcecaea5f4f5"
+   }
+  },
+  "resplit_B": {
+   "folder": "dataset_resplit_seed42",
+   "counts": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+   },
+   "total": 500,
+   "unique": 500,
+   "split_hash": {
+    "train": "b60a0732116dd796",
+    "val": "775201f27697513b",
+    "test": "f2dcb184c1ae3cac"
+   }
+  },
+  "resplit_C": {
+   "folder": "dataset_resplit_seed123",
+   "counts": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+   },
+   "total": 500,
+   "unique": 500,
+   "split_hash": {
+    "train": "f518f6fe687983ce",
+    "val": "8cbba255828aab82",
+    "test": "0b986a88723fc390"
+   }
+  }
+ },
+ "test_overlap": {
+  "origin vs resplit_A": 14,
+  "origin vs resplit_B": 10,
+  "origin vs resplit_C": 12,
+  "resplit_A vs resplit_B": 9,
+  "resplit_A vs resplit_C": 14,
+  "resplit_B vs resplit_C": 20
+ }
+}

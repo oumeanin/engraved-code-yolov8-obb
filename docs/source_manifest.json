@@ -1,0 +1,136 @@
+{
+  "source_archive": "paper_final",
+  "note": "Source hashes identify the archive used for packaging. Paths are relative; no original data or model weights are distributed.",
+  "files": [
+    {
+      "source": "paper_final/code/01_oversample.py",
+      "sha256": "96d0f155d2179e4f66af541d6e2bd85bf403f2851cb145adba762027e21c4128",
+      "bytes": 4011
+    },
+    {
+      "source": "paper_final/code/apply_g.py",
+      "sha256": "2387e91a207c761dcfd568a8bb45fbd77ef6843b836dfdb29238c79b0cb10585",
+      "bytes": 3288
+    },
+    {
+      "source": "paper_final/code/apply_g2.py",
+      "sha256": "9b737b18c82a3cfc51bf8ce66b01ae33ee9ced479b869da59b27974d720bd8b6",
+      "bytes": 3818
+    },
+    {
+      "source": "paper_final/code/chain.sh",
+      "sha256": "76a0224dfdaf61b544cc7952558bf70e9dffbc799bd9edecfe89b28fdd007969",
+      "bytes": 1410
+    },
+    {
+      "source": "paper_final/code/chain2.sh",
+      "sha256": "cfb75baecc33363d814d00985fcc4539329acf4b9d5c51107a63fcc61d5dc8e4",
+      "bytes": 695
+    },
+    {
+      "source": "paper_final/code/dataset.yaml",
+      "sha256": "29d874a2d68045fa1f546792d024b3d665db423645e7ff5c8de6a1a6a7ac5924",
+      "bytes": 267
+    },
+    {
+      "source": "paper_final/code/dataset_oversample.yaml",
+      "sha256": "8378269f30ca9724d613e22e4ee73286888bdbd12296c3f8131cca98976128c7",
+      "bytes": 279
+    },
+    {
+      "source": "paper_final/code/final_table.py",
+      "sha256": "c31d372ce66b44aa87aa8e995afbf6418a38a8831dc9e23f4c861ac41cf9c384",
+      "bytes": 8045
+    },
+    {
+      "source": "paper_final/code/run_bc.sh",
+      "sha256": "967ffbdf9ea800bbd58513999ab94191552ba45a14b277dc6f59a2dd63e58f50",
+      "bytes": 1505
+    },
+    {
+      "source": "paper_final/code/u00_train_c.py",
+      "sha256": "49312ec9bc2094f5f6d4df2425857d59c09a4037b8e60916575354b3bda5e26a",
+      "bytes": 309
+    },
+    {
+      "source": "paper_final/code/u02_train_d.py",
+      "sha256": "9e2fd134a9d39aaafe07794ac8f66b483ef478a70961a93f334feca265f6a905",
+      "bytes": 465
+    },
+    {
+      "source": "paper_final/code/u03_train_e.py",
+      "sha256": "788204899f9105387791b82b6a9ec2b3705e023b3fa66e5f0867d6effb1c95fd",
+      "bytes": 241
+    },
+    {
+      "source": "paper_final/code/u04_train_f.py",
+      "sha256": "1f1daf493e670a81e68129cdb9d99d663982752543f6f141c50c19e268fbeb23",
+      "bytes": 305
+    },
+    {
+      "source": "paper_final/code/u_eval_all.py",
+      "sha256": "c2f1302e63060a352d21599cf61b79ebefea90a4687a7581b9061d6a1f37681f",
+      "bytes": 5071
+    },
+    {
+      "source": "paper_final/code/u_run_all.py",
+      "sha256": "82a13f5dd73942fc5d5f5fae6e2f038d27578e59aca2bb7e8ebc08c9375a25a0",
+      "bytes": 1113
+    },
+    {
+      "source": "paper_final/code/u_val_threshold.py",
+      "sha256": "1ac5d038d6cfd375aa9067f087747d455a7e0bfd79e5ec514fff1c9ec869e91c",
+      "bytes": 5030
+    },
+    {
+      "source": "paper_final/code/unified_config.py",
+      "sha256": "f0a05177270e0f6959a8fd6f61370a621cfa72afe9215a3e5c6a87ac6058279a",
+      "bytes": 3562
+    },
+    {
+      "source": "paper_final/splits/index.json",
+      "target": "splits/index.json",
+      "sha256": "7a6f9fe3b69b5596a0097a1103d93e7651d17cd4129a1ca1ecf9d1402dabf5a0",
+      "bytes": 1347
+    },
+    {
+      "source": "paper_final/splits/origin.json",
+      "target": "splits/origin.json",
+      "sha256": "9577f37e66dda957336938de1cb181d6bb4594a62b9b5681de87d2b103847a74",
+      "bytes": 12402
+    },
+    {
+      "source": "paper_final/splits/resplit_A.json",
+      "target": "splits/resplit_A.json",
+      "sha256": "610a49094f77fc8aebdd64f49d7ff4928eaa35914934d3ecd29cf66878558265",
+      "bytes": 12383
+    },
+    {
+      "source": "paper_final/splits/resplit_B.json",
+      "target": "splits/resplit_B.json",
+      "sha256": "bb6afc1b4114e67237d6ba1bd8f647e4ae91d346db16cf2b8a44f7c1963650ad",
+      "bytes": 12344
+    },
+    {
+      "source": "paper_final/splits/resplit_C.json",
+      "target": "splits/resplit_C.json",
+      "sha256": "6bf313bad5a03151f5b54045dde2189e0adca3ce317a5f1a83b99cedad470268",
+      "bytes": 12346
+    }
+  ],
+  "preserved_function_ast_sha256": {
+    "_bcf": "cb5cc011579f91af5efe35c0da92b6ef3caa32d6fb2308256d8bd5f1b1b0c095",
+    "_bi": "ac578ad54c083a8d02a8444056afbf0dfc6f0a2350ae06c041fa1d8b72a4fe05",
+    "_p": "f481a3ec45a92522d854028006c93f6bac4b76bb447f434e30363dc71c010beb",
+    "ci": "fd3dc65efb8bd3d04267718dc50ead0c0f35c9706defda98bba5fefd7bdcef53",
+    "load": "2f6a7f8687f88d13015fb194fd7d5c3c9df888329740bdb3af7a98c1057b9909",
+    "iou": "523c748a1bbeffb0947019e7a612785171b6ae3b02664b3a79def045a2b16f6e",
+    "exact": "275efd3a91c0f4d04703f076c578622d2768a4a799e07a69f628fcedb37123c8",
+    "tp_fp": "481b6a25b44e889612a1c2de2e26c24ec0ef03212e91a979712fa797bfaaffc2",
+    "derive_g": "80ff9a2fe5755af03afe53d8983a692e414a2cd07fe683f8c7382aff101fee25",
+    "apply_g": "fa776f20a9f92ab4085130f14a9096d2bfb0cab0ea063e407f4b7c5aa43f266d",
+    "apply_g2": "cca9e25183d63988333e2cf13ee07468caeb1f14ace0f36571f0398c0f373fdc",
+    "score": "159e19f47e4f620138e749aebaf35fbe2a5e053df251b7cb91aae5c15b5d7b68"
+  },
+  "derived_core_module": "code/research_core.py"
+}
